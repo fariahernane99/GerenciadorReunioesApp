@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_redigir_ata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.support.android.designlibdemo.RedigirAta1Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textViewRed1Grupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Grupo:"
+                android:textSize="24sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <Spinner
+                android:id="@+id/spinnerRed1Grupos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/textViewRed1Reuniao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:text="Reunião:"
+                android:textSize="24sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <Spinner
+                android:id="@+id/spinnerRed1Reunioes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/textViewRed1Participantes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:text="Selecione os participantes que compareceram à reunião:"
+                android:textSize="24sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true" />
+
+            <ListView
+                android:id="@+id/listViewRed1Participantes"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/textViewRed1HorInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="30dp"
+                android:text="Horário de Início:"
+                android:textSize="24sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true" />
+
+            <EditText
+                android:id="@+id/editTextRed1HorInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:ems="10"
+                android:inputType="time"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/textViewRed1HorFim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:text="Horário de Fim:"
+                android:textSize="24sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <EditText
+                android:id="@+id/editTextRed1HorFim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:ems="10"
+                android:inputType="time"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/textViewRed1Data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:text="Data:"
+                android:textSize="24sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <EditText
+                android:id="@+id/editTextRed1Data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:ems="10"
+                android:inputType="time"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/textViewRed1Local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp"
+                android:text="Local:"
+                android:textSize="24sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <EditText
+                android:id="@+id/editTextRed1Local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:ems="10"
+                android:inputType="time"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:id="@+id/buttonRed1Confirma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:onClick="onClickButtonRed1Confirma"
+                android:text="Confirmar" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
